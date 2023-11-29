@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Weather</title>
+</head>
+<body>
+    <section id="page" class="sunny cloudy rainy">
+<div class="div1">
+   <div class="searchDiv">
+      <div class="searchh">
+        <input type="search" placeholder="Enter city name" spellcheck="false">
+        <button class="search">Search</button>
+      </div>
+      <div class="temp"> 
+        <h1 id="h1"><span class="tempp">23</span>°<span class="cel">C</span> <i class="fa-solid fa-cloud-showers-heavy icon"></i>  </h1>
+       <h2> <i class="fa-solid fa-location-dot location"></i><span class="city">Dhaka</span></h2>
+       <h5> <i class="fa-solid fa-wind sign"></i><span> Wind: <span class="wind">9</span> m/s</span></h5>
+      <h5><i class="fa-solid fa-droplet sign"></i><span > Humidity: <span class="humidity">72</span>%</span></h5>
+      
+      <h5>Feels like: <span class="feel">2</span> °C </h5>
+      </div>
+   </div>
+   
+</div>
+<div class="div2">
+    <div >
+        <div class="forecast">
+            <p>Today's Forecast</p>
+        <hr>
+       <div class="timeforecast">
+       <div class="hourly">
+        <p>now</p> 
+        <p><i class="fa-solid fa-cloud-showers-heavy"></i></p>
+        <p>23°<span class="cel">C</span></p>
+    </div>
+       <div class="hourly">
+        <p>00</p> 
+        <p><i class="fa-solid fa-cloud-showers-heavy"></i></p>
+        <p>23°<span class="cel">C</span></p>
+       </div>
+       <div class="hourly"><p>01</p> 
+        <p><i class="fa-solid fa-cloud-showers-heavy"></i></p>
+        <p>23°<span class="cel">C</span></p>
+    </div>
+       <div class="hourly">
+        <p>02</p> 
+        <p><i class="fa-solid fa-cloud-showers-heavy"></i></p>
+        <p>23°<span class="cel">C</span></p>
+    </div>
+       <div class="hourly">
+        <p>03</p> 
+        <p><i class="fa-solid fa-cloud-showers-heavy"></i></p>
+        <p>23°<span class="cel">C</span></p>
+    </div>
+       
+
+      <div class="hourly"> 
+        <p>04</p> 
+        <p><i class="fa-solid fa-cloud-showers-heavy"></i></p>
+        <p>23°<span class="cel">C</span></p>
+    </div>
+
+    </div>
+
+        </div>
+    <div class="five">
+        <p>5-day Forecast</p>
+        <hr>
+        <div>
+            <table>
+                <tr style="font-weight: bold;">
+                  <td>Day</td>
+                  <td></td>
+                  <td>Lowest T.</td>
+                  <td class="lines"></td>
+                  <td>Highest T.</td>
+                </tr>
+                <tr>
+                  <td>Today</td>
+                  <td><i class="fa-solid fa-cloud-showers-heavy"></i></td>
+                  <td><span class="min">18</span>°C</td>
+                  <td><hr class="line"></td>
+                  <td><span class="max">13</span>°C</td>
+                </tr>
+                <tr>
+                  <td>Thu</td>
+                  <td><i class="fa-solid fa-cloud-bolt"></i></td>
+                  <td><span class="min">18</span>°C</td>
+                  <td><hr class="line"></td>
+                  <td><span class="max">13</span>°C</td>
+                </tr>
+                <tr>
+                  <td>Fri</td>
+                  <td><i class="fa-solid fa-cloud-sun-rain"></i></td>
+                  <td><span class="min">18</span>°C</td>
+                  <td><hr class="line"></td>
+                  <td><span class="max">13</span>°C</td>
+                </tr>
+                <tr>
+                    <td>Sat</td>
+                    <td><i class="fa-solid fa-cloud-sun"></i></td>
+                    <td><span class="min">18</span>°C</td>
+                    <td><hr class="line"></td>
+                    <td><span class="max">13</span>°C</td>
+                  </tr>
+                  <tr>
+                    <td>Sun</td>
+                    <td><i class="fa-solid fa-sun"></i></td>
+                    <td><span class="min">18</span>°C</td>
+                    <td><hr class="line"></td>
+                    <td><span class="max">13</span>°C</td>
+                  </tr>
+
+              </table>
+        </div>
+    </div>
+    
+</div>
+
+</section>
+<script src="script.js">
+</script>   
+</body>
+</html>
